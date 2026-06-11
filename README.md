@@ -7,7 +7,7 @@ Installing
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ``` tmux
-set -g @plugin 'kallistoteles/tmux_status_autohide'
+set -g @plugin 'progmruansilva/tmux_status_autohide'
 ```
 
 Configure
@@ -16,14 +16,14 @@ The plugin waits 3 seconds before hiding the status bar. To change the delay, ad
 
 ``` tmux
 set -g @status_autohide_delay "2"
-set -g @plugin 'kallistoteles/tmux_status_autohide'
+set -g @plugin 'progmruansilva/tmux_status_autohide'
 ```
 
 When more than one window is open the status bar stays visible continuously. To disable this behaviour and always autohide regardless of window count, set *@status_autohide_multi_window* to `off`:
 
 ``` tmux
 set -g @status_autohide_multi_window "off"
-set -g @plugin 'kallistoteles/tmux_status_autohide'
+set -g @plugin 'progmruansilva/tmux_status_autohide'
 ```
 
 Events
@@ -46,5 +46,5 @@ To disable / hide the status bar immediately on startup, add this plugin last wi
 
 ``` tmux
 set -g @status_autohide_delay "0"
-set -g @plugin 'kallistoteles/tmux_status_autohide'
+set -g @plugin 'progmruansilva/tmux_status_autohide'
 ```
