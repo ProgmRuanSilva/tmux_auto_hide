@@ -1,5 +1,7 @@
 Auto hide tmux status bar
-========================
+
+![](./docs/presentation.gif)
+
 Plugin that hides the tmux status bar after a few seconds and briefly shows it again when relevant events occur (e.g. a new window is created or a window is closed).
 
 Installing
