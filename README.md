@@ -1,4 +1,4 @@
-Auto hide tmux status bar
+# Auto hide tmux status bar
 
 ![](./docs/presentation.gif)
 
