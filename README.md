@@ -48,3 +48,6 @@ To disable / hide the status bar immediately on startup, add this plugin last wi
 set -g @status_autohide_delay "0"
 set -g @plugin 'progmruansilva/tmux_status_autohide'
 ```
+
+### Thanks
+Special thanks to [kallistoteles](https://github.com/kallistoteles/tmux_status_autohide) for the original idea.
